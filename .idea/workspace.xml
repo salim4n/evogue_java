@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8924a908-563d-424d-9387-ce3a0954aa37" name="Changes" comment="add markdown">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="8924a908-563d-424d-9387-ce3a0954aa37" name="Changes" comment="static sjfjdsghUI" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +38,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\salim\IdeaProjects\java_cours\java_cours\optionnel" />
+      <recent name="C:\Users\salim\IdeaProjects\java_cours\java_cours" />
       <recent name="C:\Users\salim\IdeaProjects\java_cours\src\markdown\java cours\optionnel" />
       <recent name="C:\Users\salim\IdeaProjects\java_cours\src\markdown" />
     </key>
@@ -74,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698155126790</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add markdown in good directory">
+      <created>1698155830442</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698155830442</updated>
+    </task>
+    <task id="LOCAL-00005" summary="static sjfjdsghUI">
+      <created>1698155962357</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698155962357</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,7 +142,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first cmt" />
     <MESSAGE value="add markdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="add markdown" />
+    <MESSAGE value="add markdown in good directory" />
+    <MESSAGE value="static sjfjdsghUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="static sjfjdsghUI" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
