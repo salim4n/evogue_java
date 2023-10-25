@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8924a908-563d-424d-9387-ce3a0954aa37" name="Changes" comment="todo =&gt; chapitre 5">
-      <change afterPath="$PROJECT_DIR$/src/chapitre6/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/consigne.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/Dresseur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/Pokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypeAttaque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypeEau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypeEauImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypeFeu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypeFeuImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypePlante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypePlanteImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/poke_diag.drawio.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/pokemon.csv" afterDir="false" />
+    <list default="true" id="8924a908-563d-424d-9387-ce3a0954aa37" name="Changes" comment="todo =&gt; finir la correction de l'exo final">
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/Arena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/utils/CSVReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypeEauImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/TypeEauImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +58,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\salim\IdeaProjects\java_cours\src\final_exo\data" />
       <recent name="C:\Users\salim\IdeaProjects\java_cours\src\final_exo" />
       <recent name="C:\Users\salim\IdeaProjects\java_cours\java_cours\optionnel" />
       <recent name="C:\Users\salim\IdeaProjects\java_cours\java_cours" />
       <recent name="C:\Users\salim\IdeaProjects\java_cours\src\markdown\java cours\optionnel" />
-      <recent name="C:\Users\salim\IdeaProjects\java_cours\src\markdown" />
     </key>
   </component>
   <component name="RunManager">
@@ -139,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698158869647</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="todo =&gt; finir la correction de l'exo final">
+      <created>1698228703957</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698228703957</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,7 +188,8 @@
     <MESSAGE value="static sjfjdsghUI" />
     <MESSAGE value="add exemple with gladiator exemple poo" />
     <MESSAGE value="todo =&gt; chapitre 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="todo =&gt; chapitre 5" />
+    <MESSAGE value="todo =&gt; finir la correction de l'exo final" />
+    <option name="LAST_COMMIT_MESSAGE" value="todo =&gt; finir la correction de l'exo final" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

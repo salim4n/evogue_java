@@ -1,9 +1,10 @@
 package final_exo.correction;
 
 public enum Type {
-    EAU(new TypeEauImpl()),
-    FEU(new TypeFeuImpl()),
-    PLANTE(new TypePlanteImpl());
+    WATER(new TypeEauImpl()),
+    FIRE(new TypeFeuImpl()),
+    GRASS(new TypePlanteImpl()),
+    ;
 
     private final TypeAttaque typeAttaque;
 
