@@ -19,43 +19,72 @@ public class Pokemon  {
     // Indice : TypeEauImpl, TypeFeuImpl, TypePlanteImpl ...
     public int attaque(Pokemon pokemonAdverse) {
 
-        int degat = 0;
+        int pasEfficace = 10;
+        int normal = 20;
+        int tresEfficace = 40;
         if (this.getType().equals(Type.WATER)) {
             System.out.println("Attaque Pistolet à O !!!");
-            if (pokemonAdverse.getType().equals(Type.WATER))
-                degat = 10;
 
-            if (pokemonAdverse.getType().equals(Type.GRASS))
+            if (pokemonAdverse.getType().equals(Type.WATER)) {
+                System.out.println("nb degats :" + normal);
+                return normal;
+            }
+
+            if (pokemonAdverse.getType().equals(Type.GRASS)) {
                 System.out.println("Ce n'est pas très efficace...");
-                degat = 5;
-            if (pokemonAdverse.getType().equals(Type.FIRE))
+                System.out.println("nb degats :" + pasEfficace);
+                return pasEfficace;
+            }
+
+            if (pokemonAdverse.getType().equals(Type.FIRE)) {
                 System.out.println("C'est très efficace !");
-                degat = 15;
+                System.out.println("nb degats :" + tresEfficace);
+                return tresEfficace;
+            }
         }
         if (this.getType().equals(Type.GRASS)) {
             System.out.println("Attaque Fouet Liane !!!");
-            if (pokemonAdverse.getType().equals(Type.GRASS))
-                degat = 10;
-            if (pokemonAdverse.getType().equals(Type.FIRE))
+
+            if (pokemonAdverse.getType().equals(Type.GRASS)){
+                System.out.println("nb degats :" + normal);
+                return normal;
+            }
+
+            if (pokemonAdverse.getType().equals(Type.FIRE)){
                 System.out.println("Ce n'est pas très efficace...");
-                degat = 5;
+                System.out.println("nb degats :" + pasEfficace);
+                return pasEfficace;
+            }
+
             if (pokemonAdverse.getType().equals(Type.WATER))
+            {
                 System.out.println("C'est très efficace !");
-                degat = 15;
+                System.out.println("nb degats :" + tresEfficace);
+                return tresEfficace;
+            }
         }
         if (this.getType().equals(Type.FIRE)) {
             System.out.println("Attaque Lance Flammes !!!");
-            if (pokemonAdverse.getType().equals(Type.FIRE))
-                degat = 10;
-            if (pokemonAdverse.getType().equals(Type.FIRE))
+
+            if (pokemonAdverse.getType().equals(Type.FIRE)){
+                System.out.println("nb degats :" + normal);
+                return normal;
+            }
+
+            if (pokemonAdverse.getType().equals(Type.FIRE)) {
                 System.out.println("Ce n'est pas très efficace...");
-                degat = 5;
-            if (pokemonAdverse.getType().equals(Type.GRASS))
+                System.out.println("nb degats :" + pasEfficace);
+                return pasEfficace;
+            }
+
+            if (pokemonAdverse.getType().equals(Type.GRASS)){
                 System.out.println("C'est très efficace !");
-                degat = 15;
+                System.out.println("nb degats :" + tresEfficace);
+                return tresEfficace;
+            }
+
         }
-        System.out.println("nb degats :" + degat);
-        return degat;
+        return normal;
     }
 
     public String getName() {

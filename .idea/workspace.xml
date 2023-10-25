@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8924a908-563d-424d-9387-ce3a0954aa37" name="Changes" comment="todo =&gt; finir la correction de l'exo final&#10;&#10;---&gt; recuperer pokemon filtré ok&#10;---&gt; a faire : algo gestion combat dresseurs et instanciation pokemon dans combat.">
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/utils/Service.java" afterDir="false" />
+    <list default="true" id="8924a908-563d-424d-9387-ce3a0954aa37" name="Changes" comment="todo =&gt; finir la correction de l'exo final&#10;&#10;---&gt; finir l'algo de combat et de changement de pokemon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/Arena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Dresseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/Dresseur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypeAttaque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/interface_obj/TypeAttaque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypeEau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/interface_obj/TypeEau.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypeEauImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/TypeEauImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypeFeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/interface_obj/TypeFeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypeFeuImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/TypeFeuImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypePlante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/interface_obj/TypePlante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypePlanteImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/TypePlanteImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/bo/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/Pokemon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698237746103</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="todo =&gt; finir la correction de l'exo final&#10;&#10;---&gt; finir l'algo de combat et de changement de pokemon">
+      <created>1698245173351</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698245173351</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +214,8 @@
     <MESSAGE value="todo =&gt; chapitre 5" />
     <MESSAGE value="todo =&gt; finir la correction de l'exo final" />
     <MESSAGE value="todo =&gt; finir la correction de l'exo final&#10;&#10;---&gt; recuperer pokemon filtré ok&#10;---&gt; a faire : algo gestion combat dresseurs et instanciation pokemon dans combat." />
-    <option name="LAST_COMMIT_MESSAGE" value="todo =&gt; finir la correction de l'exo final&#10;&#10;---&gt; recuperer pokemon filtré ok&#10;---&gt; a faire : algo gestion combat dresseurs et instanciation pokemon dans combat." />
+    <MESSAGE value="todo =&gt; finir la correction de l'exo final&#10;&#10;---&gt; finir l'algo de combat et de changement de pokemon" />
+    <option name="LAST_COMMIT_MESSAGE" value="todo =&gt; finir la correction de l'exo final&#10;&#10;---&gt; finir l'algo de combat et de changement de pokemon" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
