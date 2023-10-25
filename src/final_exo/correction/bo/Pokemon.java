@@ -1,4 +1,4 @@
-package final_exo.correction;
+package final_exo.correction.bo;
 
 public class Pokemon  {
     private String name;
@@ -24,6 +24,7 @@ public class Pokemon  {
             System.out.println("Attaque Pistolet à O !!!");
             if (pokemonAdverse.getType().equals(Type.WATER))
                 degat = 10;
+
             if (pokemonAdverse.getType().equals(Type.GRASS))
                 System.out.println("Ce n'est pas très efficace...");
                 degat = 5;

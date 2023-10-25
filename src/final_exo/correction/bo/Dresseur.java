@@ -1,6 +1,7 @@
-package final_exo.correction;
+package final_exo.correction.bo;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Dresseur {
     private String nom;
@@ -9,6 +10,12 @@ public class Dresseur {
     public Dresseur(String nom, ArrayList<Pokemon> equipe) {
         this.nom = nom;
         this.equipe = equipe;
+    }
+
+    public Pokemon getRandomPokemon() {
+        Random random = new Random();
+        int randomIndex = random.nextInt(equipe.size());
+        return equipe.get(randomIndex);
     }
 
     public String getNom() {

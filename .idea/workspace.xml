@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8924a908-563d-424d-9387-ce3a0954aa37" name="Changes" comment="todo =&gt; finir la correction de l'exo final">
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/Arena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/utils/CSVReader.java" afterDir="false" />
+    <list default="true" id="8924a908-563d-424d-9387-ce3a0954aa37" name="Changes" comment="todo =&gt; finir la correction de l'exo final&#10;&#10;---&gt; recuperer pokemon filtré ok&#10;---&gt; a faire : algo gestion combat dresseurs et instanciation pokemon dans combat.">
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/utils/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypeEauImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/TypeEauImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/Arena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Dresseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/Dresseur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypeAttaque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/interface_obj/TypeAttaque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypeEau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/interface_obj/TypeEau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypeEauImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/TypeEauImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypeFeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/interface_obj/TypeFeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypeFeuImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/TypeFeuImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypePlante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/interface_obj/TypePlante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/TypePlanteImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/bo/TypePlanteImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +36,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="01797618-06b9-490d-9a35-2c94d26f1446" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="01797618-06b9-490d-9a35-2c94d26f1446" />
+        <option name="url" value="https://github.com/salim4n/evogue_java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,16 +66,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\salim\IdeaProjects\java_cours\src\final_exo\data" />
@@ -137,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698228703957</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="todo =&gt; finir la correction de l'exo final&#10;&#10;---&gt; recuperer pokemon filtré ok&#10;---&gt; a faire : algo gestion combat dresseurs et instanciation pokemon dans combat.">
+      <created>1698237746103</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698237746103</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,7 +216,8 @@
     <MESSAGE value="add exemple with gladiator exemple poo" />
     <MESSAGE value="todo =&gt; chapitre 5" />
     <MESSAGE value="todo =&gt; finir la correction de l'exo final" />
-    <option name="LAST_COMMIT_MESSAGE" value="todo =&gt; finir la correction de l'exo final" />
+    <MESSAGE value="todo =&gt; finir la correction de l'exo final&#10;&#10;---&gt; recuperer pokemon filtré ok&#10;---&gt; a faire : algo gestion combat dresseurs et instanciation pokemon dans combat." />
+    <option name="LAST_COMMIT_MESSAGE" value="todo =&gt; finir la correction de l'exo final&#10;&#10;---&gt; recuperer pokemon filtré ok&#10;---&gt; a faire : algo gestion combat dresseurs et instanciation pokemon dans combat." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,18 +1,19 @@
 package final_exo.correction;
 
-import final_exo.correction.utils.CSVReader;
+import final_exo.correction.bo.Dresseur;
+import final_exo.correction.bo.Pokemon;
+import final_exo.correction.utils.Service;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 public class Arena {
 
     public static void main(String... args) throws FileNotFoundException {
-
-        ArrayList<Pokemon> filteredPokemon = populateTeam();
-        ArrayList<Pokemon> equipRed = selectRandomPokemons(filteredPokemon, 3);
-        ArrayList<Pokemon> equipBlue = selectRandomPokemons(filteredPokemon, 3);
+        Service service = new Service();
+        ArrayList<Pokemon> filteredPokemon = service.populateTeam();
+        ArrayList<Pokemon> equipRed = service.selectRandomPokemons(filteredPokemon, 3);
+        ArrayList<Pokemon> equipBlue = service.selectRandomPokemons(filteredPokemon, 3);
         Dresseur Red = new Dresseur("Red", equipRed);
         Dresseur Blue = new Dresseur("Blue", equipBlue);
         System.out.println(Red);
@@ -21,66 +22,71 @@ public class Arena {
         System.out.println(Blue);
         System.out.println(Blue.getEquipe());
 
+        boolean isAnyPokemonAliveAtBlue = true;
+        boolean isAnyPokemonAliveAtRed = true;
+        boolean pokemonIsAlive = true;
+
+        do{
+            // On vérifie à chaque tour que les pokemon sont debout
+            isAnyPokemonAliveAtBlue = checkAliveAll(Blue.getEquipe());
+            isAnyPokemonAliveAtBlue = checkAliveAll(Red.getEquipe());
+
+            // Condition de victoire
+            if(!isAnyPokemonAliveAtBlue)
+                System.out.println("Red a gagné le combat!");
+            else if(!isAnyPokemonAliveAtRed)
+                System.out.println("Blue a gagné le combat");
+            //le combat commence ou continue avec un nouveau pokemon
+            else {
+                // Sélectionnez aléatoirement un Pokémon de chaque dresseur
+                Pokemon redPokemon = Red.getRandomPokemon();
+                Pokemon bluePokemon = Blue.getRandomPokemon();
+                // Combat entre les Pokémon
+                while (checkAliveOne(redPokemon) && checkAliveOne(bluePokemon)) {
+                    // Faites combattre les Pokémon et réduisez leurs points de vie
+                    int degat = 0;
+                    Random random = new Random();
+                    int randomIndex = random.nextInt(1);
+                    if (randomIndex == 0) {
+                        System.out.print(redPokemon.getName() + " attaque !");
+                         degat = redPokemon.attaque(bluePokemon);
+                         bluePokemon.setHp(bluePokemon.getHp() - degat);
+                    } else {
+                        System.out.print(bluePokemon.getName() + " attaque !");
+                        degat = bluePokemon.attaque(redPokemon);
+                        redPokemon.setHp(redPokemon.getHp() - degat);
+                    }
+                    System.out.println("------------------------------------");
+                    System.out.println(redPokemon.toString());
+                    System.out.println(bluePokemon.toString());
+                    System.out.println("------------------------------------");
+                }
+
+            }
+        } while (isAnyPokemonAliveAtBlue || isAnyPokemonAliveAtRed);
+
 
 
     }
 
-    static ArrayList<Pokemon> populateTeam() {
-        CSVReader reader = new CSVReader();
-        List<Pokemon> allPokemon = new ArrayList<>();
-        List<Pokemon> filteredPokemon = new ArrayList<>();
-        List<String> data = reader.readCsv("src/final_exo/data/pokemon.csv");
-        for (String line : data) {
-            String[] rowData = line.split(",");
-            //méthode trim obligatoire
-            // car sans == " Grass". (espace, il faut suppr l'espace)
-            String type = rowData[2].trim();
-            // Vérifiez si le type est "Grass," "Fire," ou "Water"
-            if ("Grass".equals(type) || "Fire".equals(type) || "Water".equals(type)){
-                // Créez un objet Pokemon à partir des données de la ligne et ajoutez-le à la liste filtrée.
-                Pokemon pokemon = createPokemonFromData(rowData);
-                filteredPokemon.add(pokemon);
+
+    static boolean checkAliveAll(ArrayList<Pokemon> equipe) {
+        for (Pokemon pokemon : equipe) {
+            if (pokemon.getHp() > 0) {
+                return true; // Au moins un Pokémon est encore debout.
             }
         }
-        return (ArrayList<Pokemon>) filteredPokemon;
+        return false; // Aucun Pokémon n'est encore debout.
     }
-    static Pokemon createPokemonFromData( String[] rowData){
-        // S'assurez au préalable des bonnes données dans le csv.
-        String name = rowData[1].trim();
-        String stringtype = rowData[2].trim();
-        int lifePool = Integer.parseInt(rowData[4].trim());
 
-        // Convertir la chaîne de caractères du type en enum PokemonType.
-        Type type = null;
-        try {
-            type = Type.valueOf(stringtype.toUpperCase());
-        } catch (IllegalArgumentException e) {
-
-            e.toString();
-            System.out.println("Allo Houston, on a un problème ...");
-        }
-
-        // Créez un objet Pokemon à partir des données.
-        Pokemon pokemon = new Pokemon(name, type, lifePool);
-        return pokemon;
+    static boolean checkAliveOne(Pokemon pokemon) {
+        return pokemon.getHp() > 0;
     }
-    static ArrayList<Pokemon> selectRandomPokemons(ArrayList<Pokemon> pokemons, int count) {
-        Random random = new Random();
-        ArrayList<Pokemon> selectedPokemons = new ArrayList<>();
-        int totalPokemons = pokemons.size();
 
-        count = Math.min(count, totalPokemons);
 
-        for (int i = 0; i < count; i++) {
-            int randomIndex = random.nextInt(totalPokemons);
-            Pokemon selectedPokemon = pokemons.get(randomIndex);
-            selectedPokemons.add(selectedPokemon);
 
-            // Supprimer le Pokémon sélectionné de la liste pour éviter les doublons.
-            pokemons.remove(randomIndex);
-            totalPokemons--;
-        }
 
-        return selectedPokemons;
-    }
+
+
+
 }

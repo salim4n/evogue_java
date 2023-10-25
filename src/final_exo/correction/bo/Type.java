@@ -1,4 +1,6 @@
-package final_exo.correction;
+package final_exo.correction.bo;
+
+import final_exo.correction.bo.interface_obj.TypeAttaque;
 
 public enum Type {
     WATER(new TypeEauImpl()),

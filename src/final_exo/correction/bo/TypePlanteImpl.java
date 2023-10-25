@@ -1,4 +1,7 @@
-package final_exo.correction;
+package final_exo.correction.bo;
+
+import final_exo.correction.bo.interface_obj.TypeAttaque;
+import final_exo.correction.bo.interface_obj.TypePlante;
 
 public class TypePlanteImpl implements TypePlante, TypeAttaque {
 
