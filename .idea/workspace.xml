@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8924a908-563d-424d-9387-ce3a0954aa37" name="Changes" comment="static sjfjdsghUI" />
+    <list default="true" id="8924a908-563d-424d-9387-ce3a0954aa37" name="Changes" comment="todo =&gt; chapitre 5">
+      <change afterPath="$PROJECT_DIR$/src/chapitre6/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/consigne.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/Dresseur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypeAttaque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypeEau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypeEauImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypeFeu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypeFeuImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypePlante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/correction/TypePlanteImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/poke_diag.drawio.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_exo/pokemon.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -23,8 +44,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2XDCQKrrVLgluJKM60nuodCY9dB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,11 +59,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\salim\IdeaProjects\java_cours\src\final_exo" />
       <recent name="C:\Users\salim\IdeaProjects\java_cours\java_cours\optionnel" />
       <recent name="C:\Users\salim\IdeaProjects\java_cours\java_cours" />
       <recent name="C:\Users\salim\IdeaProjects\java_cours\src\markdown\java cours\optionnel" />
@@ -95,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698155962357</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add exemple with gladiator exemple poo">
+      <created>1698156878050</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698156878050</updated>
+    </task>
+    <task id="LOCAL-00007" summary="todo =&gt; chapitre 5">
+      <created>1698158869647</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698158869647</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +188,9 @@
     <MESSAGE value="add markdown" />
     <MESSAGE value="add markdown in good directory" />
     <MESSAGE value="static sjfjdsghUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="static sjfjdsghUI" />
+    <MESSAGE value="add exemple with gladiator exemple poo" />
+    <MESSAGE value="todo =&gt; chapitre 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="todo =&gt; chapitre 5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
