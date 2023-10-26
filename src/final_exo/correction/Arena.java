@@ -14,6 +14,7 @@ public class Arena {
                 gameLoop();
     }
 
+    //Peut être ameliorer, refactoring, boucle de gameplay
     static void gameLoop(){
 
         Service service = new Service();

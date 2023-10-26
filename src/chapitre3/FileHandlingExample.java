@@ -5,7 +5,7 @@ import java.io.*;
 public class FileHandlingExample {
 
     public static void main(String[] args) {
-        File inputFile = new File("input.txt");
+        File inputFile = new File("input.txt"); //Bien sûre cela ne fonctionne pas car il n'y a aucun fichier nommé input.txt dans le dossier...
         File outputFile = new File("output.txt");
 
         try {
