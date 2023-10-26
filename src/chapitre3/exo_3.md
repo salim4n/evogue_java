@@ -1,4 +1,3 @@
-Bien sûr, voici un exercice qui consiste à lire un fichier CSV et afficher son contenu dans la console en utilisant Java. Je vais vous fournir le code de base, et vous pourrez le proposer aux étudiants. Assurez-vous que le fichier CSV soit correctement formaté avec une ligne d'en-tête et des données.
 
 **Objectif :** Lire un fichier CSV et afficher son contenu dans la console.
 

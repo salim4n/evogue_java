@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8924a908-563d-424d-9387-ce3a0954aa37" name="Changes" comment="Game Loop terminée">
-      <change afterPath="$PROJECT_DIR$/src/chapitre1/exo_1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapitre2/exo_2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapitre3/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapitre3/exo_3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapitre4/exo_4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapitre5/AnnotationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapitre5/exo_5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapitre3/FileHandlingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapitre3/FileHandlingExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/final_exo/correction/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_exo/correction/Arena.java" afterDir="false" />
-    </list>
+    <list default="true" id="8924a908-563d-424d-9387-ce3a0954aa37" name="Changes" comment="Game Loop terminée" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698249648194</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Game Loop terminée">
+      <created>1698310534382</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698310534382</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
